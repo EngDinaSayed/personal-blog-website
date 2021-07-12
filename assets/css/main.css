@@ -1,0 +1,46 @@
+@import "header.css";
+@import "footer.css";
+
+body {
+  background-color: darkgrey;
+}
+
+.main-body {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5vm 5vm;
+}
+
+.main-section {
+  min-width: 75%;
+  max-width: 100%;
+}
+
+.card-list {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-details a {
+  align-self: flex-start;
+}

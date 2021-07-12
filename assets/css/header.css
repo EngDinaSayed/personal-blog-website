@@ -1,0 +1,37 @@
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.container {
+  max-width: 100%;
+  background-image: url("../img/bg-coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding: 1em;
+}
+
+.nav-menu a {
+  text-decoration: none;
+}
+
+.nav-header .nav-menu {
+  background-color: #d1d1d1;
+}
+
+@media (min-width: 960px) {
+  .nav-header .container {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,11 @@
+@import "header.css";
+@import "footer.css";
+@import "sidebar.css";
+
+body {
+  background-color: darkgrey;
+}
+
+.main-body {
+  background-color: rgba(11, 111, 222, 0.5);
+}
